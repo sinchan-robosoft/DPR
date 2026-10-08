@@ -102,7 +102,7 @@ export const homeScreenData = [{
 },
 {
     page : 3,
-    hasNextPage : true,
+    hasNextPage : false,
     nextPage : null,
     data : [
     {
@@ -140,6 +140,17 @@ export const homeScreenData = [{
             { id: 15, title: 'Silent Valley', subtitle: '2022', image: 'https://picsum.photos/seed/valley/400/600' },
             { id: 16, title: 'Iron Coast', subtitle: '2025', image: 'https://picsum.photos/seed/coast/400/600' },
             { id: 17, title: 'Golden Hour', subtitle: '2023', image: 'https://picsum.photos/seed/golden/400/600' },
+        ]
+    },
+    {
+        title: "carousel",
+        type: "carousel",
+        data: [
+            { id: 1, title: 'Mountain Escape', subtitle: 'Weekend getaways', image: 'https://picsum.photos/seed/mountain/1280/720' },
+            { id: 2, title: 'City Lights', subtitle: 'Top rooftop spots', image: 'https://picsum.photos/seed/city/1280/720' },
+            { id: 3, title: 'Ocean Calm', subtitle: 'Best beaches this season', image: 'https://picsum.photos/seed/ocean/1280/720' },
+            { id: 4, title: 'Forest Trails', subtitle: 'Hikes under 5 km', image: 'https://picsum.photos/seed/forest/1280/720' },
+            { id: 5, title: 'Desert Roads', subtitle: 'Road trip ideas', image: 'https://picsum.photos/seed/desert/1280/720' },
         ]
     }
 

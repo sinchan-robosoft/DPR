@@ -45,6 +45,7 @@ export default function HomeScreen() {
     queryKey: ["home-page"],
     queryFn: ({ pageParam }) => fetchPage(pageParam),
     initialPageParam: 1,
+    staleTime : 10000,
     getNextPageParam: (lastPage) =>
       lastPage.hasNextPage ? lastPage.nextPage ?? undefined : undefined,
   });
@@ -62,7 +63,11 @@ export default function HomeScreen() {
   };
 
   if (isLoading) {
-    return <ThemedText>Loading...</ThemedText>;
+    return( 
+      <ThemedView className="flex-1 justify-center items-center h-full w-full">
+        <ThemedText className="text-black text-lg">Loading...</ThemedText>
+      </ThemedView>
+    );
   }
 
   if (isError) {

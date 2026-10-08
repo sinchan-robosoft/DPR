@@ -7,11 +7,10 @@ import type { PageSection } from "@/Types/page";
 
 const GAP = 12;
 const SIDE_PADDING = 120;
-const PEEK = 24;
 
 const Cards = ({ section }: { section: PageSection }) => {
   const { width } = useLandscape();
-  const itemWidth = width - SIDE_PADDING * 2 - PEEK;
+  const itemWidth = width - SIDE_PADDING * 1.7
   const snap = itemWidth + GAP;
 
   return (
