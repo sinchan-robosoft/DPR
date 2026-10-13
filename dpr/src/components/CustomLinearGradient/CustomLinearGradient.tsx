@@ -37,9 +37,9 @@ const CustomLinearGradient = ({
         <Svg width="100%" height="100%">
             <Defs>
                 <LinearGradient id="g" x1={x1 ? x1 : "0"} y1={y1 ? y1 : "0"} x2={x2 ? x2 : "0"} y2={y2 ? y2 : "1"}>
-                    <Stop offset={offset1 ? offset1 : "0"} stopColor={stopColor1 ? stopColor1 : "#0F0F14"} stopOpacity={stopOpacity1 ? stopOpacity1 : "0.4"} />
-                    <Stop offset={offset2 ? offset2 : "0.6"} stopColor={stopColor2 ? stopColor2 : "#0F0F14"} stopOpacity={stopOpacity2 ? stopOpacity2 : "0.9"} />
-                    <Stop offset={offset3 ? offset3 : "1"} stopColor={stopColor3 ? stopColor3 : "#08080a"} stopOpacity={stopOpacity3 ? stopOpacity3 : "0.9"} />
+                    <Stop offset={offset1 ? offset1 : "0"} stopColor={stopColor1 ? stopColor1 : "#0F0F14"} stopOpacity={stopOpacity1 ? stopOpacity1 : "0.1"} />
+                    <Stop offset={offset2 ? offset2 : "0.6"} stopColor={stopColor2 ? stopColor2 : "#0F0F14"} stopOpacity={stopOpacity2 ? stopOpacity2 : "0.7"} />
+                    <Stop offset={offset3 ? offset3 : "1"} stopColor={stopColor3 ? stopColor3 : "#08080a"} stopOpacity={stopOpacity3 ? stopOpacity3 : "1"} />
                 </LinearGradient>
             </Defs>
 
